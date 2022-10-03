@@ -82,8 +82,6 @@ function startGame(){
   scoreDisplay.innerText = `Your score: ${score}`;
   
  computerLights ();
-  
 }
-
 document.getElementById("start").addEventListener("click", startGame);
 
